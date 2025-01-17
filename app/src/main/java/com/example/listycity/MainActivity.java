@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // This block is based on code from:https://www.geeksforgeeks.org/how-to-dynamically-add-elements-to-a-listview-in-android/
+
         cityList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
